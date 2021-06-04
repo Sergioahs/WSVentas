@@ -1,3 +1,7 @@
+create user 'vespertino'@'localhost' identified by 'contra';
+grant all privileges on * . * to 'vespertino'@'localhost';
+flush privileges;
+create database venta;
 -- phpMyAdmin SQL Dump
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
